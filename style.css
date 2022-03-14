@@ -1,73 +1,97 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
-body {
-  font-family: sans-serif;
+body{
+    font-family: sans-serif;
 }
-#nav-bar {
-  position: sticky;
-  top: 0%;
-  z-index: 10;
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
-.navbar {
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
-.navbar-brand img {
-  height: 48px;
-  padding-left: 20px;
-}
-.navbar-nav li {
-  padding: 0 10px;
-  text-transform: uppercase;
-  
-}
-.navbar-nav li a {
-  color: #fff !important;
-  font-weight: 600;
-  float: right;
-  text-align: left;
-  transition: 0.5s ease all;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.navbar-nav li a:hover{
-  background-color: #0de042;
-}
-.fa-bars{
-  color: #fff;
-  font-size: 30px !important;
+.logo-img{
+    height: 45px;
+    padding-left: 20px;
 }
 .navbar-toggler{
     outline: none;
+    color: rgb(92, 78, 78);
+}
+.fa-bars{
+    color: rgb(6, 153, 116) !important;
+    
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+.navbar-nav li a{
+    color: rgb(204, 189, 189) !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    float: right;
+    transition: 0.5s ease all;
+}
+.navbar-nav li a:hover{
+    color: orange !important;
 }
 
-/*-------------banner section-------------*/
-
+/*------------banner-----------*/
 #banner{
     background-image: linear-gradient(to right, #a517ba, #5f1782);
-    color: #fff;
     padding-top: 5%;
 }
-.promo-title{
-    font-size: 40px;
+
+.ads{
+    color: #fff;
     font-weight: 600;
-    margin-top: 100px;
+    text-transform: uppercase;
 }
-.play-btn{
-    width: 45px;
-    margin: 20px;
+
+
+.promo-title{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 100px;
 }
 #banner a{
-    color: #fff;
     text-decoration: none;
+    color: rgb(17, 97, 163);
 }
-.buttom-img{
+.play-btn{
+    width: 40px;
+    margin: 10px;
+}
+.wave1{
     width: 100%;
 }
-/*---------------servise-------------*/
-#servise{
-    padding: 80px 0;
+
+
+/*-----------servise--------------*/
+
+.servise{
+    padding: 0 20px;
+    margin-top: 30px;
 }
-.servise-img{
-    width: 100px;
+.title::before{
+    content: '';
+    
+}
+
+
+#footer{
+    margin-top: 10em;
+    background: #333;
+    height: 7em;
+    text-align: center;
+
+}
+#footer p{
+    padding-top: 50px;
 }
